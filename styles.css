@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.jogo {
+    background: #1f1f1f;
+    border: 0.188rem solid #00ffcc;
+    border-radius: 1.25rem;
+    padding: 2.50rem;
+    text-align: center;
+    box-shadow: 0 0 1.875rem #00ffcc;
+    width: 90%;
+    max-width: 31.25rem;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: #00ffcc;
+}
+
+.instrucoes {
+    margin-bottom: 1.25rem;
+    font-size: 0.875rem;
+}
+
+input {
+    padding: 0.625rem;
+    font-size: 1.125rem;
+    width: 80%;
+    max-width: 18.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    margin-bottom: 0.938rem;
+} 
+
+button {
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1f1f1f;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: background 0,3s;
+}
+
+button:hover {
+    background-color: #00ddb3;
+}
+
+#mensagem, #tentativas {
+    margin-top: 1.25rem;
+    font-size: 1rem;
+}
